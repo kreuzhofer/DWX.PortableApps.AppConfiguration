@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>DWX.PortableApps.AppConfiguration</id>
+        <version>1.0.0</version>
+        <authors>Daniel Kreuzhofer</authors>
+        <owners>Daniel Kreuzhofer</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>DWX.PortableApps.AppConfiguration</description>
+        <copyright>2015 Microsoft Deutschland GmbH</copyright>
+        <dependencies>
+            <group>
+                <dependency id="Newtonsoft.Json" version="7.0.1" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\DWX.PortableApps.AppConfiguration.Dto\DWX.PortableApps.AppConfiguration.Dto.dll" target="lib\netcore45\DWX.PortableApps.AppConfiguration.Dto.dll" />
+        <file src="bin\DWX.PortableApps.AppConfiguration.Services\DWX.PortableApps.AppConfiguration.Services.dll" target="lib\netcore45\DWX.PortableApps.AppConfiguration.Services.dll" />
+        <file src="bin\DWX.PortableApps.AppConfiguration.Dto\DWX.PortableApps.AppConfiguration.Dto.dll" target="lib\portable-net45+wp80+win8+wpa81+aspnetcore50\DWX.PortableApps.AppConfiguration.Dto.dll" />
+        <file src="bin\DWX.PortableApps.AppConfiguration.Services\DWX.PortableApps.AppConfiguration.Services.dll" target="lib\portable-net45+wp80+win8+wpa81+aspnetcore50\DWX.PortableApps.AppConfiguration.Services.dll" />
+    </files>
+</package>

@@ -1,0 +1,19 @@
+@ECHO OFF
+SETLOCAL
+SET VERSION=%1
+SET NUGET=.nuget\nuget.exe
+
+DEL *.nupkg
+
+"C:\Program Files (x86)\MSBuild\12.0\bin\amd64\msbuild" DWX.PortableApps.AppConfiguration.sln /target:Clean;Build /p:Configuration=Release;OutDir=..\bin
+
+%NUGET% SetApiKey %2
+
+FOR %%G IN (*.nuspec) DO (
+  %NUGET% pack %%G -Version %VERSION% -Symbols
+)
+
+FOR %%G IN (*.nupkg) DO (
+  %NUGET% push %%G
+)
+

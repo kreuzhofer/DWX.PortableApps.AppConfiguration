@@ -1,0 +1,27 @@
+﻿{
+    "global": [
+        {
+            "key": "sample_entry_one",
+            "value": "50000",
+            "comment": "This is a sample configuration entry"
+        },
+        {
+            "key": "sample_entry_two",
+            "value": "true",
+            "comment": "Another sample entry"
+        }
+
+    ],
+    "roles": [
+        {
+            "role": "developer",
+            "entries": [
+                {
+                    "key": "sample_entry_two",
+                    "value": "false"
+                }
+            ]
+        }
+    ],
+    "users": null
+}

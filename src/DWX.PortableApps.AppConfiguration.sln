@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWX.PortableApps.AppConfiguration.Dto", "DWX.PortableApps.AppConfiguration.Dto\DWX.PortableApps.AppConfiguration.Dto.csproj", "{8C982ECF-DEA8-4E25-A89F-753AF0BAAC3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWX.PortableApps.AppConfiguration.Services", "DWX.PortableApps.AppConfiguration.Services\DWX.PortableApps.AppConfiguration.Services.csproj", "{8100EE18-DF11-4793-9210-954BCED363B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWX.PortableApps.AppConfiguration.Tests", "DWX.PortableApps.AppConfiguration.Tests\DWX.PortableApps.AppConfiguration.Tests.csproj", "{3408ABC2-6AA5-4574-85DD-33D7557F72F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C982ECF-DEA8-4E25-A89F-753AF0BAAC3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C982ECF-DEA8-4E25-A89F-753AF0BAAC3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C982ECF-DEA8-4E25-A89F-753AF0BAAC3F}.Debug|ARM.ActiveCfg = Debug|ARM
+		{8C982ECF-DEA8-4E25-A89F-753AF0BAAC3F}.Debug|ARM.Build.0 = Debug|ARM
+		{8C982ECF-DEA8-4E25-A89F-753AF0BAAC3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C982ECF-DEA8-4E25-A89F-753AF0BAAC3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C982ECF-DEA8-4E25-A89F-753AF0BAAC3F}.Release|ARM.ActiveCfg = Release|ARM
+		{8C982ECF-DEA8-4E25-A89F-753AF0BAAC3F}.Release|ARM.Build.0 = Release|ARM
+		{8100EE18-DF11-4793-9210-954BCED363B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8100EE18-DF11-4793-9210-954BCED363B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8100EE18-DF11-4793-9210-954BCED363B1}.Debug|ARM.ActiveCfg = Debug|ARM
+		{8100EE18-DF11-4793-9210-954BCED363B1}.Debug|ARM.Build.0 = Debug|ARM
+		{8100EE18-DF11-4793-9210-954BCED363B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8100EE18-DF11-4793-9210-954BCED363B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8100EE18-DF11-4793-9210-954BCED363B1}.Release|ARM.ActiveCfg = Release|ARM
+		{8100EE18-DF11-4793-9210-954BCED363B1}.Release|ARM.Build.0 = Release|ARM
+		{3408ABC2-6AA5-4574-85DD-33D7557F72F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3408ABC2-6AA5-4574-85DD-33D7557F72F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3408ABC2-6AA5-4574-85DD-33D7557F72F0}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{3408ABC2-6AA5-4574-85DD-33D7557F72F0}.Debug|ARM.Build.0 = Debug|Any CPU
+		{3408ABC2-6AA5-4574-85DD-33D7557F72F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3408ABC2-6AA5-4574-85DD-33D7557F72F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3408ABC2-6AA5-4574-85DD-33D7557F72F0}.Release|ARM.ActiveCfg = Release|Any CPU
+		{3408ABC2-6AA5-4574-85DD-33D7557F72F0}.Release|ARM.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
